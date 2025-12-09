@@ -1,0 +1,27 @@
+    1  git config --global user.name "Kseniia Vysotina"
+    2  git config --global user.email sviksemi@gmail.com
+    3  git clone https://github.com/sviksemi-lab/HW_10.git
+    4  cd HW_10
+    5  touch text_ignore.txt
+    6  nano text_ignore.txt
+    7  git status
+    8  git add text_ignore.txt
+    9  git commit -m "New file created"
+   10  touch main_test.txt
+   11  git add main_test.txt
+   12  git commit -m "Main file created"
+   13  git branch develop
+   14  git checkout -b develop
+   15  touch develop_test.txt
+   16  git add develop_test.txt
+   17  git commit -m "New file created"
+   18  nano develop_test.txt file
+   19  nano develop_test.txt file
+   20  git status
+   21  git add develop_test.txt
+   22  git commit -m "New comment in the file created"
+   23  git checkout main
+   24  git merge develop
+   25  git log
+   26  command_list.csv
+   27  history > command_list.csv
